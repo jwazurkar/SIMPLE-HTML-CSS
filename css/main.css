@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica;
+    font-size: 15px;
+}
+.page {
+    margin: 10em auto;
+    max-width: 990px;
+    text-align: justify;
+    padding: 0;
+}
+header, footer{
+    background: url(http://placehold.it/990x100) no-repeat transparent;
+    height: 9em;
+}
+footer{
+    clear:both;
+}
+article{
+    /* background: url(http://placehold.it/750x800) no-repeat transparent; */
+    max-height: 100em;
+     max-width: 40em;
+    /*padding: 0 20em 4em 1em;*/
+    float:left;
+    /*background: #ffa;*/
+    padding: 0  4em 0 1em;
+}
+aside{
+    float: left;
+    width: 21em;
+    /*margin: 0 0 4em -18em;*/
+    max-height: 100em;
+    /*color: teal;*/
+    /*background: #D8FF35;*/
+}
+.callout{
+    background: url(http://placehold.it/330x250) no-repeat transparent scroll;
+    height: 18em;
+}
+aside.callout h2{
+    text-transform: uppercase;
+}
+article .articleimage{
+    float: left;
+    margin: 1em 1em 1em 0;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 2em 0 0;
+    margin: 7em 0 0 0;
+}
+nav ul li a, a:link, a:visited {
+    text-decoration: none;
+    color: rgba(7, 3, 5, 0.48);
+    background: url("https://developer.cdn.mozilla.net/media/img/wiki/menu-arrow.png") no-repeat scroll 92% 0 transparent;
+    padding: 0.3em 1em 1em 0;
+}
+a:hover{
+    color: rgba(7, 1, 6, 0.82);
+}
