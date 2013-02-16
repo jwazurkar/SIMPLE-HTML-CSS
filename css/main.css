@@ -7,6 +7,7 @@ body {
     max-width: 990px;
     text-align: justify;
     padding: 0;
+
 }
 header, footer{
     background: url(http://placehold.it/990x100) no-repeat transparent;
@@ -23,6 +24,11 @@ article{
     float:left;
     /*background: #ffa;*/
     padding: 0  4em 0 1em;
+    background-color: rgb(155,150,202);
+}
+article .articleimage{
+    float: left;
+    margin: 1em 1em 1em 0;
 }
 aside{
     float: left;
@@ -31,20 +37,23 @@ aside{
     max-height: 100em;
     /*color: teal;*/
     /*background: #D8FF35;*/
+    background-color: white;
 }
 .callout{
     background: url(http://placehold.it/330x250) no-repeat transparent scroll;
     height: 18em;
 }
+aside h2{
+    background-color: rgb(155,150,202);
+}
 aside.callout h2{
     text-transform: uppercase;
 }
-article .articleimage{
-    float: left;
-    margin: 1em 1em 1em 0;
+div.related-links h2{text-transform: uppercase;
 }
 nav ul{
     text-align: center;
+    max-height: 2em;
 }
 nav ul li{
     display: inline-block;
