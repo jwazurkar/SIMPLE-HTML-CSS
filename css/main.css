@@ -1,6 +1,9 @@
+/* Author: Jay Wazurkar
+   License: none (public domain)
+*/
 body {
     font-family: Helvetica;
-    font-size: 16px;
+    font-size: 15px;
 }
 .page {
     margin: 10em auto;
@@ -26,23 +29,20 @@ article{
     padding: 0  4em 0 1em;
 
 }
-article .articleimage{
+.articleimage{
     float: left;
     margin: 1em 1em 1em 0;
 }
 aside{
     float: left;
-    width: 21em;
+    width: 20em;
     /*margin: 0 0 4em -18em;*/
     max-height: 100em;
     /*color: teal;*/
     /*background: #D8FF35;*/
     background-color: white;
 }
-aside div h2{
-    margin: 0 0 0 0;
-}
-aside div p{
+aside p{
     margin: 1em 0 1em 0em
 }
 .callout{
@@ -50,6 +50,7 @@ aside div p{
     height: 17em;
 }
 aside h2{
+    margin: 0 0 0 0;
     background-color: rgba(32, 25, 30, 0.22);
 }
 aside.callout h2{
