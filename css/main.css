@@ -2,7 +2,7 @@
    License: none (public domain)
 */
 
-/*TODO: use more generic classes like - left, right, content, box, error, */
+/*TODO: use more generic classes like - left, right, content, box, error, media-block */
 body {
     font-family: Helvetica;
     font-size: 15px;
@@ -15,6 +15,7 @@ body {
     line-height: 1.5;
 }
 h1, h2, h3 {line-height: 1.2;}
+p{}
 h1{
     font-size: 2em;
     margin: 0 0 0.5em 0;
