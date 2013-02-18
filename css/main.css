@@ -1,6 +1,8 @@
 /* Author: Jay Wazurkar
    License: none (public domain)
 */
+
+/*TODO: use more generic classes like - left, right, content, box, error, */
 body {
     font-family: Helvetica;
     font-size: 15px;
@@ -12,6 +14,12 @@ body {
     padding: 0;
     line-height: 1.5;
 }
+h1, h2, h3 {line-height: 1.2;}
+h1{
+    font-size: 2em;
+    margin: 0 0 0.5em 0;
+}
+h2{font-size: 1.5em;}
 header, footer{
     background: url(http://placehold.it/990x100) no-repeat transparent;
     height: 9em;
@@ -64,7 +72,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    list-style: none;
+    /*list-style: none;*/
     padding: 0 2em 0 0;
     margin: 7em 0 0 0;
 }
